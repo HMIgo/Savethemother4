@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save the Mother - Empowering Mothers and Girls in Tanzania</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .hero {
+      background: url('hero-bg.jpg') no-repeat center center/cover;
+      color: #fff;
+      padding: 100px 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff6f61;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Empowering Mothers and Girls in Tanzania</h1>
+      <p>Helping mothers start farms, supporting young girls with hygiene products, and building a brighter future.</p>
+      <a href="#donate" class="btn">Donate Now</a>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="container">
+    <h2>Our Mission</h2>
+    <p>At Save the Mother, we are dedicated to empowering mothers in Tanzania by helping them start sustainable farms and providing young girls with access to hygiene products. Together, we can create a brighter future for families and communities.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Save the Mother. All rights reserved.</p>
+  </footer>
+</body>
+</html>
