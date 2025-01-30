@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Save the Mother - Empowering Mothers and Girls in Tanzania</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      line-height: 1.6;
-      text-align: center;
-    }
-    .hero {
-      background: #4a90e2; /* Blue background (replace with your image later) */
-      color: #fff;
-      padding: 100px 20px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #ff6f61;
-      color: #fff;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Mother - Empowering Mothers & Girls</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Empowering Mothers and Girls in Tanzania</h1>
+            <p>Providing sustainable farms and hygiene support for a brighter future.</p>
+            <a href="#donate" class="btn">Donate Now</a>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>Save the Mother is dedicated to empowering mothers by helping them start sustainable farms and providing young girls with essential hygiene products.</p>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program-cards">
+            <div class="card">
+                <h3>Farm Support</h3>
+                <p>Helping mothers grow food to sustain their families and earn income.</p>
+            </div>
+            <div class="card">
+                <h3>Market Access</h3>
+                <p>Teaching mothers how to sell their farm products for financial independence.</p>
+            </div>
+            <div class="card">
+                <h3>Girls' Hygiene</h3>
+                <p>Providing young girls with essential hygiene products for better health and education.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate">
+        <h2>Support Our Cause</h2>
+        <form action="#" method="POST">
+            <input type="number" name="amount" placeholder="Enter donation amount" required>
+            <button type="submit" class="btn">Donate Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Save the Mother | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
